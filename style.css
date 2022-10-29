@@ -1,0 +1,284 @@
+html{
+  height:100%;
+  overflow:hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+  overflow:hidden;
+  font-family:sans-serif;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+
+
+
+.board{
+  background:rgb(255,255,255,0.7);
+  width: 100%;
+  height: 100px; 
+  position:absolute;
+  top:0%;
+  left:0%;
+  z-index:1;
+  font-size: 1.5vw;
+  
+  
+  display: flex;/* 水平置中 */
+  justify-content: center;/* 垂直置中 */
+  align-content: center;      
+  flex-wrap: wrap;
+}
+
+.b_board{
+  background: rgb(255,255,255,0);
+  width: 100%;
+  height: 50px; 
+  
+  position:absolute;
+  top:100px;
+  left:0px;
+  z-index:1;
+  
+  
+  
+  display: flex;/* 水平置中 */
+  justify-content: center;/* 垂直置中 */
+  align-content: center;      
+  flex-wrap: wrap;
+  
+}
+
+
+.title{
+  font-size: 200%;
+  color:rgb(100,100,100);
+  z-index:1;
+  
+}
+
+.b_group{
+/*   background:white; */
+  width: 20%;
+  height: 30px; 
+  
+  text-align:center;
+  line-height:30px;
+  
+  position: relative;
+  left:-3%;
+  
+  border-radius:8px;
+  z-index:1;
+  
+}
+
+.b_ipta{
+/*   background:white; */
+  width: 20%;
+  height: 30px; 
+  
+  text-align:center;
+  line-height:30px;
+  
+  position: relative;
+  left:0%;
+  
+  border-radius:8px;
+  z-index:1;
+}
+
+.b_intro{
+/*   background:white; */
+  width: 20%;
+  height: 30px; 
+  
+  text-align:center;
+  line-height:30px;
+  
+  position: relative;
+  left:3%;
+  
+  border-radius:8px;
+  z-index:1;
+}
+
+.button {
+  border: none;
+  color: white;
+  width: 100%;
+  height: 30px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  z-index:1;
+}
+
+.button1 {
+  background-color: rgb(255,255,255,0.5); 
+  color: rgb(100,100,100);
+  border: 1px solid rgb(100,100,100);
+}
+
+.button1:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+.button2 {
+  background-color: rgb(255,255,255,0.5); 
+  color: rgb(100,100,100);
+  border: 1px solid rgb(100,100,100);
+}
+
+.button2:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+.button3 {
+  background-color: rgb(255,255,255,0.5); 
+  color: rgb(100,100,100);
+  border: 1px solid rgb(100,100,100);
+}
+
+.button3:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+#button4 {
+  background-color: white; 
+  color: rgb(100,100,100);
+  width: 20%;
+  height:30px;
+  position:absolute;
+  left:40%;
+  z-index:2;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  border: 1px solid rgb(100,100,100);
+  font-size: 16px;
+}
+
+#button4:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+#button5 {
+  background-color: white; 
+  color: rgb(100,100,100);
+  width: 20%;
+  height: 30px;
+  position:absolute;
+  left:70%;
+  z-index:2;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  border: 1px solid rgb(100,100,100);
+  font-size: 16px;
+}
+
+#button5:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+#button6 {
+  background-color: white; 
+  color: rgb(100,100,100);
+  width: 20%;
+  height: 30px;
+  position:absolute;
+  left:10%;
+  z-index:2;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  border: 1px solid rgb(100,100,100);
+  font-size: 16px;
+}
+
+#button6:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
+
+#object_name{
+  background-color:rgb(255,255,255,0);
+  
+  width: 100%;
+  height: 30px;
+  color: rgb(100,100,100);
+  position:absolute;
+  top:80%;
+  left:0%;
+  z-index:1;
+  
+  display: flex;/* 水平置中 */
+  justify-content: center;/* 垂直置中 */
+  align-content: center;      
+  flex-wrap: wrap;
+  
+}
+
+#obj_name{
+  background-color: rgb(255,255,255); 
+  color: rgb(100,100,100);
+  
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  border: 5px solid rgb(255,255,255);
+  font-size: 16px;
+}
+
+#porject_board{
+  background-color:rgb(255,255,255,0);
+  
+  width: 100%;
+  height: 30px;
+  color: rgb(100,100,100);
+  position:absolute;
+  top:86%;
+  left:0%;
+  z-index:1;
+  
+  display: flex;/* 水平置中 */
+  justify-content: center;/* 垂直置中 */
+  align-content: center;      
+  flex-wrap: wrap;
+}
+
+
+#project_return{
+  background-color: rgb(255,255,255); 
+  color: rgb(100,100,100);
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:8px;
+  border: 5px ;
+  font-size: 16px;
+}
+
+
+#project_return:hover {
+  background-color: rgb(100,100,100);
+  color: white;
+}
